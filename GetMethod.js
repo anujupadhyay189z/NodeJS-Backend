@@ -2,7 +2,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.write("Hello, Welcome to Node.js!");
-  res.json("{message: my Api is cornic}");
+  res.json("{message: my Api is connect}");
   res.end();
 });
 
